@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sonishsinghal.github.io/crud-app/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/sonishsinghal.github.io/crud-app/static/js/main.34791b4e.chunk.js",
+    "main.js.map": "/sonishsinghal.github.io/crud-app/static/js/main.34791b4e.chunk.js.map",
+    "runtime-main.js": "/sonishsinghal.github.io/crud-app/static/js/runtime-main.f830ecb1.js",
+    "runtime-main.js.map": "/sonishsinghal.github.io/crud-app/static/js/runtime-main.f830ecb1.js.map",
+    "static/js/2.4a1cc567.chunk.js": "/sonishsinghal.github.io/crud-app/static/js/2.4a1cc567.chunk.js",
+    "static/js/2.4a1cc567.chunk.js.map": "/sonishsinghal.github.io/crud-app/static/js/2.4a1cc567.chunk.js.map",
+    "static/js/3.8482f907.chunk.js": "/sonishsinghal.github.io/crud-app/static/js/3.8482f907.chunk.js",
+    "static/js/3.8482f907.chunk.js.map": "/sonishsinghal.github.io/crud-app/static/js/3.8482f907.chunk.js.map",
+    "index.html": "/sonishsinghal.github.io/crud-app/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/sonishsinghal.github.io/crud-app/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.4a1cc567.chunk.js.LICENSE.txt": "/sonishsinghal.github.io/crud-app/static/js/2.4a1cc567.chunk.js.LICENSE.txt",
+    "static/media/NotFound.b684e5be.jpg": "/sonishsinghal.github.io/crud-app/static/media/NotFound.b684e5be.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f830ecb1.js",
+    "static/js/2.4a1cc567.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.34791b4e.chunk.js"
+  ]
+}
