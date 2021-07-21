@@ -19,9 +19,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "json-server": "json-server --watch src/Database/db.json --host 127.0.0.1 --port 3002",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
