@@ -6,6 +6,7 @@ import { getUsers, editUser } from '../Service/api';
 const initialValue = {
     title:'',
     description:'',
+    date:new Date(),
 
 }
 
@@ -21,7 +22,7 @@ const useStyles = makeStyles({
 
 const EditUser = () => {
     const [user, setUser] = useState(initialValue);
-    const { title , description } = user;
+    const { title , description , date} = user;
     const { id } = useParams();
     const classes = useStyles();
     let history = useHistory();
@@ -44,6 +45,10 @@ const EditUser = () => {
         console.log(e.target.value);
         setUser({...user, [e.target.name]: e.target.value})
     }
+
+    useEffect(() => {
+        user.date= new Date(); 
+    })
 
     return (
         <FormGroup className={classes.container}>

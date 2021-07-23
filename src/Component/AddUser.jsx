@@ -1,4 +1,4 @@
-import react, { useState } from 'react';
+import react, { useState , useEffect } from 'react';
 import { FormGroup, FormControl, InputLabel, Input, Button, makeStyles, Typography } from '@material-ui/core';
 import { addUser } from '../Service/api';
 import { useHistory } from 'react-router-dom';
@@ -27,18 +27,19 @@ const AddUser = () => {
     const { title , description , date} = user;
     const classes = useStyles();
     let history = useHistory();
-    // let currDate= new Date();
     const onValueChange = (e) => {
         console.log(e.target.value);
         setUser({...user, [e.target.name]: e.target.value })
     }
-
+      
     const addUserDetails = async() => {
-        // setUser({...user,})
         await addUser(user);
         history.push('./all');
     }
-
+    
+    useEffect(() => {
+        user.date= new Date();
+    })
     return (
         <FormGroup className={classes.container}>
             <Typography variant="h4">Add Post</Typography>
